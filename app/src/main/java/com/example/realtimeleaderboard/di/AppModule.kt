@@ -21,8 +21,8 @@ object AppModule {
         return ScoreEngineRepositoryImpl(
             dispatcher = Dispatchers.IO,
             playerCount = 20,
-            minIntervalMs = 5000L,
-            maxIntervalMs = 20000L
+            minIntervalMs = 500L,
+            maxIntervalMs = 2000L
         )
     }
 
